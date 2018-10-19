@@ -6,10 +6,12 @@ the storms since 1900 that made landfall in Florida.
 
 To run:
 
-`erl
+```
+erl
+
 c(storm_parser).
 c(storm_analyzer).
 c(analysis_worker).
 Analyzer = storm_analyzer:start(5).
 storm_parser:start("hurdat2.txt", Analyzer).
-`
+```
