@@ -1,10 +1,11 @@
-HurDat2 Florida Storm Analysis
+# HurDat2 Florida Storm Analysis
 Author: Max Greenwald
 
+### Description
 Given the current HurDat2 data file, find and print all of
 the storms since 1900 that made landfall in Florida.
 
-To run:
+### Instructions
 
 ```
 erl
